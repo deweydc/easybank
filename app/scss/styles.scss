@@ -1,0 +1,141 @@
+@import "variables";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // border: 1px solid rgb(179, 179, 179);
+}
+
+body{
+    font-family: 'Public Sans', sans-serif;
+    color: $grayishBlue;
+}
+
+header  {
+    padding: 22px;
+    background-color: $white;
+}
+
+header button {
+    margin-right: 220px;
+}
+
+.logo{
+    margin-left: 120px;
+}
+
+nav{
+    background-color: $white;
+}
+
+.nav-links{
+    
+
+}
+
+
+
+.nav-links a {
+color: $grayishBlue;
+margin: 12px;
+}
+
+button {
+    padding: 16px 30px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(to right, $limeGreen, $brightCyan);
+    color: $white;
+    font-weight: 700;
+}
+
+.hero {
+    height: 70vh;
+    position: relative;
+    overflow: hidden;
+    background-color: $lightGray;
+    z-index: -20;
+    
+}
+
+.hero-body{
+    margin: 180px auto 0 125px;
+    width: 875px;
+    
+    
+
+    .title{
+        margin-bottom: 20px;
+        font-size: 3rem;
+        color: black;
+        font-weight: 300;
+        
+    }
+
+    p{
+        margin-bottom: 20px;
+        
+
+    }
+
+    button {
+
+    }
+}
+
+.bg-intro {
+    width: 1200px;
+    height: auto;
+    position: absolute;
+    right: -300px;
+    top: -215px;
+    z-index: -10;
+    
+}
+
+.image-mockup{
+    position: absolute;
+    right: -50px;
+    top:0;
+    z-index: -1;
+    
+    
+}
+
+
+// why-choose section
+
+.why-choose{
+    z-index: -20;
+    background-color: $lightGrayishBlue;
+    position: relative;
+    
+    
+
+
+    .section-title{
+        padding: 100px 125px 0;
+        font-size: 2em;
+        color: black;
+        margin-left: 125px;
+    }
+
+    .section-description{
+        padding: 20px 125px 50px;
+        width: 800px;
+        margin-left: 125px;
+
+    }
+
+    h2{
+        font-size: 1.5em;
+        margin: 30px 0;
+        color: black;
+    }
+
+    .info-cards{
+        padding: 30px 0 100px 0;
+    }
+
+}
