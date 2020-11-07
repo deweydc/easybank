@@ -25,11 +25,24 @@ h2 {
 
 .logo {
   margin-left: 120px;
+  cursor: pointer;
 }
 
 nav {
   background-color: white;
   z-index: 30;
+}
+
+.nav-item {
+  padding-bottom: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  border-bottom: 3px solid #31d35c;
 }
 
 .nav-links a {
@@ -190,14 +203,21 @@ footer .footer-logo {
   margin-bottom: 40px;
   background-color: white;
   padding: 10px;
+  cursor: pointer;
 }
 
 footer li {
   list-style: none;
+  font-weight: 300;
 }
 
 footer li a {
   color: #fafafa;
+}
+
+footer li a:hover {
+  text-decoration: none;
+  color: #31d35c;
 }
 
 footer button {
