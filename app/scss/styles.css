@@ -3,7 +3,6 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border: 1px solid #b3b3b3;
 }
 
 body {
@@ -13,7 +12,6 @@ body {
 }
 
 header {
-  padding: 22px;
   background-color: white;
 }
 
@@ -31,6 +29,7 @@ h2 {
 
 nav {
   background-color: white;
+  z-index: 30;
 }
 
 .nav-links a {
@@ -48,17 +47,22 @@ button {
   font-weight: 700;
 }
 
+button:hover {
+  opacity: 0.3;
+  z-index: 10;
+}
+
 .hero {
   height: 70vh;
   position: relative;
   overflow: hidden;
   background-color: #fafafa;
-  z-index: -20;
+  z-index: 1;
 }
 
 .hero-body {
   margin: 180px auto 0 125px;
-  width: 875px;
+  width: 475px;
 }
 
 .hero-body .title {
@@ -70,6 +74,10 @@ button {
 
 .hero-body p {
   margin-bottom: 20px;
+}
+
+.hero-body button:hover {
+  opacity: 0.3;
 }
 
 .bg-intro {
@@ -86,8 +94,8 @@ button {
   width: 800px;
   height: auto;
   right: -75px;
-  top: -0px;
-  z-index: -1;
+  top: -50px;
+  z-index: 10;
 }
 
 .why-choose {
@@ -139,6 +147,7 @@ button {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 80px;
+  background-color: white;
 }
 
 .articles .card-img-top {
@@ -193,5 +202,9 @@ footer li a {
 
 footer button {
   margin-bottom: 20px;
+}
+
+footer .footer-links {
+  padding-left: 80px;
 }
 /*# sourceMappingURL=styles.css.map */

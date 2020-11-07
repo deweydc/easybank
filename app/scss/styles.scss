@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid rgb(179, 179, 179);
+    // border: 1px solid rgb(179, 179, 179);
 }
 
 body{
@@ -14,8 +14,9 @@ body{
 }
 
 header  {
-    padding: 22px;
+    
     background-color: $white;
+    
     
 }
 
@@ -33,6 +34,7 @@ h2{
 
 nav{
     background-color: $white;
+    z-index: 30;
 }
 
 .nav-links{
@@ -56,19 +58,26 @@ button {
     font-weight: 700;
 }
 
+button:hover{
+    opacity: 0.3;
+    z-index: 10;
+ }
+
+
+
 
 .hero {
     height: 70vh;
     position: relative;
     overflow: hidden;
     background-color: $lightGray;
-    z-index: -20;
+    z-index: 1;
     
 }
 
 .hero-body{
     margin: 180px auto 0 125px;
-    width: 875px;
+    width: 475px;
     
     
 
@@ -82,13 +91,14 @@ button {
 
     p{
         margin-bottom: 20px;
-        
-
     }
 
-    button {
+    
 
+    button:hover{
+        opacity: 0.3;
     }
+
 }
 
 .bg-intro {
@@ -106,8 +116,8 @@ button {
     width: 800px;
     height: auto;
     right: -75px;
-    top: -0px;
-    z-index: -1;
+    top: -50px;
+    z-index: 10;
     
     
 }
@@ -172,6 +182,8 @@ button {
         padding: auto;
         align-items: center;
         margin-bottom: 80px;
+        background-color: white;
+    
     }
 
     .card-img-top{
@@ -204,9 +216,7 @@ button {
         font-size: .9em;
     }
 
-    .card-group{
-
-    }
+    
 
 
 }
@@ -235,7 +245,12 @@ footer{
         margin-bottom: 20px;
     }
 
+    .footer-links{
+        padding-left: 80px;
+    }
+
     
     
 
 }
+
