@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    // border: 1px solid rgb(179, 179, 179);
+    border: 1px solid rgb(179, 179, 179);
 }
 
 body{
@@ -58,7 +58,7 @@ button {
 
 
 .hero {
-    height: 80vh;
+    height: 70vh;
     position: relative;
     overflow: hidden;
     background-color: $lightGray;
@@ -92,7 +92,7 @@ button {
 }
 
 .bg-intro {
-    width: 1200px;
+    width: 1300px;
     height: auto;
     position: absolute;
     right: -300px;
@@ -103,8 +103,8 @@ button {
 
 .image-mockup{
     position: absolute;
-    // width: 850px;
-    // height: auto;
+    width: 800px;
+    height: auto;
     right: -75px;
     top: -0px;
     z-index: -1;
@@ -131,7 +131,8 @@ button {
 
     .section-description{
         padding: 20px 0 50px;
-        width: 800px;
+        width: 600px;
+        
     }
 
     h2{
@@ -161,6 +162,8 @@ button {
         width: 100%;
         height: auto;
         margin: 0 auto;
+        
+        
     }
 
     .card-body{
@@ -168,6 +171,7 @@ button {
         width: 100%;
         padding: auto;
         align-items: center;
+        margin-bottom: 80px;
     }
 
     .card-img-top{
@@ -204,5 +208,34 @@ button {
 
     }
 
+
+}
+
+
+footer{
+    height: 20vh;
+    background-color: $darkBlue ;
+    padding: 40px;
+
+    .footer-logo{
+        margin-bottom: 40px;
+        background-color: white;
+        padding: 10px;
+    }
+
+    li{
+        list-style: none;
+        
+        a{
+            color: $lightGray;
+        }
+    }
+
+    button{
+        margin-bottom: 20px;
+    }
+
+    
+    
 
 }

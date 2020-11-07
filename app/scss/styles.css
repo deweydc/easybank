@@ -3,6 +3,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  border: 1px solid #b3b3b3;
 }
 
 body {
@@ -48,7 +49,7 @@ button {
 }
 
 .hero {
-  height: 80vh;
+  height: 70vh;
   position: relative;
   overflow: hidden;
   background-color: #fafafa;
@@ -72,7 +73,7 @@ button {
 }
 
 .bg-intro {
-  width: 1200px;
+  width: 1300px;
   height: auto;
   position: absolute;
   right: -300px;
@@ -82,6 +83,8 @@ button {
 
 .image-mockup {
   position: absolute;
+  width: 800px;
+  height: auto;
   right: -75px;
   top: -0px;
   z-index: -1;
@@ -101,7 +104,7 @@ button {
 
 .why-choose .section-description {
   padding: 20px 0 50px;
-  width: 800px;
+  width: 600px;
 }
 
 .why-choose h2 {
@@ -135,6 +138,7 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 80px;
 }
 
 .articles .card-img-top {
@@ -165,5 +169,29 @@ button {
 
 .articles .card-text {
   font-size: .9em;
+}
+
+footer {
+  height: 20vh;
+  background-color: #2d314d;
+  padding: 40px;
+}
+
+footer .footer-logo {
+  margin-bottom: 40px;
+  background-color: white;
+  padding: 10px;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer li a {
+  color: #fafafa;
+}
+
+footer button {
+  margin-bottom: 20px;
 }
 /*# sourceMappingURL=styles.css.map */
