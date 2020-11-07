@@ -6,17 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/deweydc/eastbank.git"
+  // "repository": {
+  //   "type": "git",
+  //   "url": "git+https://github.com/deweydc/eastbank.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/deweydc/eastbank-landing-page/issues"
+    "url": "https://github.com/deweydc/eastbank/issues"
   },
-  "homepage": "https://github.com/deweydc/eastbank-landing-page#readme",
-  "dependencies": {
+  // "homepage": "https://github.com/deweydc/eastbank#readme",
+  // "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0"
