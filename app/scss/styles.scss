@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid rgb(179, 179, 179);
+    // border: 1px solid rgb(179, 179, 179);
 }
 
 body{
@@ -15,18 +15,25 @@ body{
     overflow-x: hidden;
 }
 
+header{
+    z-index: 20;
+    position: sticky;
+    top: 0;
+    z-index: 250;
+    width: 100%;
+}
+
 
 
 nav  {
     background-color: $white;
-    position: sticky;
-    top: 0;
+    width: 100%;
     z-index: 11100;
     margin-top: -10px;
 }
 
-header button {
-    margin-right: 200px;
+.nav-button {
+    
 }
 
 h2{
@@ -103,13 +110,18 @@ button:hover{
     overflow: hidden;
 }
 
+main{
+    width: 100%;
+    contain: content;
+}
+
 
 
 .hero {
     max-width: 100%;
     height: 660px;
     position: relative;
-    overflow: hidden;
+    overflow-x: hidden;
     background-color: $lightGray;
     z-index: 10;  
 }
@@ -145,7 +157,7 @@ button:hover{
     width: 1300px;
     height: auto;
     position: absolute;
-    left: 600px;
+    left: 790px;
     top: -270px;
     z-index: 15;
     
@@ -155,6 +167,7 @@ button:hover{
 .image-mockup-container{
     position: relative;
     width: 100%;
+    // overflow-x: inherit;
 }
 
 .image-mockup{
@@ -164,7 +177,6 @@ button:hover{
     right: -10%;
     top: -120px;
     z-index: 100;
-
 }
 
 
@@ -318,6 +330,16 @@ footer{
         min-width: 1200px;
     }
 
+    nav{
+        text-align: center;
+    }
+
+    .navbar-toggler{
+        margin-right: 0;
+    }
+
+
+
  
 
     .image-mockup{
@@ -327,7 +349,15 @@ footer{
         right: -10%;
         top: -120px;
         z-index: 100;
+    }
 
+    .bg-intro {
+        width: 1800px;
+        height: auto;
+        position: absolute;
+        left: -200px;
+        top: -570px;
+        z-index: 15;
     }
 
     .hero {
@@ -336,6 +366,26 @@ footer{
     
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
+
+    .logo{
+        position: absolute;
+        right: 0;
+        top: 8px;
+        margin: 0;
+    }
+
+    .nav-container{
+        position: relative;
+    }
+
+    .nav-button{
+        visibility: hidden;
+    }
+    
+    .nav-item{
+        padding-bottom: 0;
+        
+    }
 
 }
