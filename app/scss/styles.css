@@ -127,9 +127,8 @@ main {
 
 .bg-intro {
   width: 1300px;
-  height: auto;
   position: absolute;
-  left: 790px;
+  left: 650px;
   top: -270px;
   z-index: 15;
 }
@@ -270,6 +269,10 @@ footer .footer-links {
   padding-left: 80px;
 }
 
+.mobile-bg {
+  display: none;
+}
+
 @media only screen and (max-width: 1200px) {
   .flex-wrap {
     display: -webkit-box;
@@ -289,24 +292,48 @@ footer .footer-links {
   .navbar-toggler {
     margin-right: 0;
   }
+  .image-mockup-container {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    z-index: 1;
+  }
+  .hero {
+    width: 100%;
+    position: relative;
+  }
+  .hero-body div {
+    position: absolute;
+    top: 0;
+    left: 20%;
+  }
   .image-mockup {
     position: relative;
-    width: 800px;
+    width: 1000px;
     height: auto;
-    right: -10%;
-    top: -120px;
+    right: -0;
+    top: -350px;
     z-index: 100;
+    margin: 0 20px;
   }
   .bg-intro {
-    width: 1800px;
+    display: none;
+  }
+  .flex-wrap {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .mobile-bg {
+    display: block;
+    width: 1500px;
     height: auto;
     position: absolute;
-    left: -200px;
-    top: -570px;
+    left: -450px;
+    top: -370px;
     z-index: 15;
   }
   .hero {
-    height: 560px;
+    height: 540px;
   }
 }
 
@@ -314,17 +341,44 @@ footer .footer-links {
   .logo {
     position: absolute;
     right: 0;
-    top: 8px;
+    top: 0;
     margin: 0;
   }
   .nav-container {
     position: relative;
   }
   .nav-button {
-    visibility: hidden;
+    display: none;
   }
-  .nav-item {
-    padding-bottom: 0;
+  .border-gradient:hover {
+    border-bottom: 4px solid transparent;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border-image-source: linear-gradient(to right, #31d35c, #2bb7da 100%);
+    border-image-slice: 5;
+  }
+  .image-mockup {
+    position: relative;
+    width: 800px;
+    height: auto;
+    right: 15px;
+    top: -280px;
+    z-index: 100;
+    margin: 0 auto;
+  }
+  .bg-intro {
+    width: 1000px;
+    height: auto;
+    position: absolute;
+    left: -200px;
+    top: -570px;
+    z-index: 15;
+  }
+  .hero-body div {
+    width: 700px;
+    position: absolute;
+    top: 0;
+    left: -100px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
